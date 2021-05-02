@@ -1,0 +1,42 @@
+
+    body {
+      background-color: grey;
+    }
+    .komiks {
+      background-color: black;
+      margin: 2% 30%;
+      padding: 1%;
+      border: 5px solid green;
+    }
+    .grid_1 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+    }
+    .motherdragons {
+      grid-column-start: 1;
+      grid-column-end: 2;
+      padding: 10px 1px;
+    }
+    .ukrotitledragons {
+      grid-column-start: 2;
+      grid-column-end: 3;
+      padding: 10px 1px;
+    }
+    .killerdragons {
+      grid-column-start:1;
+      grid-column-end: 2;
+      grid-row-start: 2;
+      padding: 10px 1px;
+    }
+    .ishak {
+      grid-column-start: 2;
+      grid-column-end: 3;
+      padding: 10px 1px;
+      width: 250px;
+      height: 220px;
+    }
+    img {
+      width: 250px;
+      height: 210px;
+    }
