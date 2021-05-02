@@ -3,25 +3,26 @@
       background-color: grey;
     }
     .pictures {
-      background-color: black;
-      margin:  29%;
       padding: 2%;
+      margin:  29%;
       border: 6px dashed green;
+      background-color: black;
     }
     .grid_1 {
       display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: repeat(2, 1fr);
+      grid-template-columns: repeat(1, 2fr);
+      grid-template-rows: repeat(1, 2fr);
     }
     .motherdragons {
-      grid-column-start: 1;
-      grid-column-end: 2;
       padding: 5px ;
+      grid-column-end: 2;
+      grid-column-start: 1;
     }
     .ukrotitledragons {
+      padding: 5px ;
       grid-column-start: 2;
       grid-column-end: 3;
-      padding: 5px ;
+     
     }
     .killerdragons {
       grid-row-start: 2;
@@ -30,8 +31,8 @@
       padding: 5px ;
     }
     .ishak {
-      grid-column-start: 2;
       grid-column-end: 3;
+      grid-column-start: 2;
       padding: 5px ; 
     }
     img {
